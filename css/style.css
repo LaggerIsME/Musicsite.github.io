@@ -6,7 +6,7 @@
 #main{
 	background-size: 100%;
 	background-repeat: no-repeat;
-	background-image: url(/home/hecker/Desktop/NewSite/media/pop-punk.jpg);
+	background-image: url("../media/pop-punk.jpg");
 }
 
 #trek{
