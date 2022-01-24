@@ -1,0 +1,17 @@
+
+@media(max-width:1140px){ /*более простые мониторы*/
+
+  #left{
+    padding-left: 8px;
+    padding-right: 8px;
+
+  }
+  #main{
+    background-size: 100% 100%;
+  }
+@media(max-width:768px){ /*Телефоны*/
+  #left{
+    padding-left: 6px;
+    padding-right: 6px
+  }
+}

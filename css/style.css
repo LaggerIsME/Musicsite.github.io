@@ -2,18 +2,20 @@
   z-index: 1;
   background-color: #111;
 	border-right:2px groove white;
+
 }
 #main{
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-image: url("../media/pop-punk.jpg");
+  min-height: 100vh;
+
 }
 
 #trek{
 	text-align: center;
 }
 #inside{
-	min-height: 99vh;
 	margin-left:15px;
 	margin-top:10px;
 	border-radius: 5px;
@@ -24,33 +26,36 @@
 #text{
 	opacity: 0.6;
 	border-radius: 5px;
-	min-height: 100vh;
+  min-height: 140vh;
 	background-color: #111111;
 }
 *{
   color:white;
   font-family: Gotham Pro;
   font-weight: bold;
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
 }
 .sidenav h1{
   margin-top:10px;
-  font-size:25px;
+  font-size:1.9vw;
 }
 .Kategor h2{
   margin-top:10px;
-  font-size:20px;
+  font-size:1.93vw;
 }
 .sidenav .form-control { /*Поиск сайта*/
-  padding: 1px;
-  font-size: 17px;
+  padding: 0.1vh;
+  font-size: 1.4vw;
 	color:black;
-  width:195px;
+  width:14.7vw;
 }
 .Kategor a{
   text-decoration: none;
   color:grey;
   display: block;
-  font-size: 15px;
+  font-size: 1.2vw;
   font-weight: normal;
 }
 .Kategor a:hover{
@@ -58,6 +63,6 @@
 }
 #main h2{
   margin-top:15px;
-  font-size:20px;
+  font-size:1.93vw;
   font-weight: bold;
 }
