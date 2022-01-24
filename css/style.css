@@ -91,10 +91,10 @@
   font-weight: normal;
   border-radius: 5px;
   padding-left: 5px;
-  padding-top:3px;
   color: black;
   font-size: 4vw;
-  margin: 0px 15px 0px 15px;
+  width:95vw;
+  margin-bottom:5px;
 }
 
 .navbar-xs a {
@@ -110,4 +110,8 @@
 
 #top {
   padding: 0px 8px 0px 8px;
+}
+.okoshko{
+  float:right;
+  padding: 2px 0px;
 }
