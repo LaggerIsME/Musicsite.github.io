@@ -11,18 +11,28 @@
   <title>RussianRock.com</title>
 
 <body>
-  <div class="container-fluid">
+  <nav class="navbar-xs">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12">
+          <a class="navbar-brand" href="index.html" style="font-size:3.5vw; margin-right:5px;">RussianRock.com</a>
+          <input type="search" name="q" placeholder="Поиск" id="inputing">
+            <a href="#">Категории</a>
+      </div>
+    </div>
+  </nav>
+  <div class="container-fluid ">
     <div class="row" id="row_container">
-      <div class="col-md-2 col-sm-2 col-xs-2" id="left">
+      <div class="col-md-2 col-sm-2" id="left">
         <div class="sidenav">
-          <h1><small>RussianRock.com</small></h1>
+          <h1><a href="index.html" style="text-decoration: none"><small>RussianRock.com</small></a></h1>
           <input type="text" class="form-control" id="usr" placeholder="Поиск">
           <div class="Kategor">
             <div class="Genre">
               <h2><small>Жанры</small></h2>
               <a href="#">Пост-панк</a>
-              <a href="/home/hecker/Desktop/NewSite/other_pages/pop-punk.html" style = "color: white">Поп-панк</a>
-              <a href="/home/hecker/Desktop/NewSite/index.html">Классический рок</a>
+              <a href="#">Поп-панк</a>
+              <a href="#">Классический рок</a>
               <a href="#">Инди</a>
               <a href="#">Метал</a>
             </div>
@@ -47,19 +57,19 @@
           </div>
         </div>
       </div>
-      <div class="col-md-10 col-sm-10 col-xs-10" id="main">
-          <div class="row" id="row_main">
-            <div class ="col-md-7 col-sm-7 col-xs-7 " id="inside">
-              <div class ="col-md-12 col-sm-12 col-xs-12" id="text">
-                <br>
-              </div>
+      <div class="col-md-10 col-sm-10" id="main">
+        <div class="row" id="row_main">
+          <div class="col-md-7 col-sm-7 col-xs-7 " id="inside">
+            <div class="col-md-12 col-sm-12 col-xs-12" id="text">
+              <br>
             </div>
           </div>
         </div>
       </div>
     </div>
-      <!-- ФИГНЯ ДЛЯ JS -->
-      <script src="js/bootstrap.bundle.min.js"></script>
+  </div>
+  <!-- ФИГНЯ ДЛЯ JS -->
+  <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
