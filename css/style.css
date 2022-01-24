@@ -8,7 +8,6 @@
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-image: url("../media/pop-punk.jpg");
-  min-height: 100vh;
 
 }
 
@@ -26,7 +25,7 @@
 #text{
 	opacity: 0.6;
 	border-radius: 5px;
-  min-height: 140vh;
+  min-height: 100vh;
 	background-color: #111111;
 }
 *{
