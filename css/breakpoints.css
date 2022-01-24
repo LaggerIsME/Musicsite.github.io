@@ -46,6 +46,9 @@
   }
   @media(max-width:320px){
     .navbar-xs a {
-      font-size: 3.2vw;
+    }
+    .okoshko{
+      float:right;
+      padding: 4px 8px;
     }
   }
