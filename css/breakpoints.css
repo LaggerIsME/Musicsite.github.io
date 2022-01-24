@@ -1,17 +1,46 @@
-
-@media(max-width:1140px){ /*более простые мониторы*/
-
-  #left{
-    padding-left: 8px;
-    padding-right: 8px;
-
-  }
-  #main{
-    background-size: 100% 100%;
-  }
-@media(max-width:768px){ /*Телефоны*/
-  #left{
-    padding-left: 6px;
-    padding-right: 6px
+@media(max-width:1920px) {
+  .navbar-xs {
+    display: none;
   }
 }
+
+@media(max-width:1140px) {
+
+  /*более простые мониторы*/
+  #left {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  #main {
+    background-size: 100% 100%;
+  }
+
+  @media(max-width:768px) {
+
+    /*Телефоны*/
+    #left {
+      padding-left: 6px;
+      padding-right: 6px
+    }
+  }
+
+  @media(max-width:525px) {
+    #left {
+      display: none;
+    }
+
+    #main {
+      background-image: url("../media/pop-punkmobile.jpg");
+    }
+
+    .navbar-xs {
+      display: block;
+    }
+
+    .navbar-brand {}
+
+    #row_main {
+      margin: 0px 35px 0px 0px;
+    }
+  }
