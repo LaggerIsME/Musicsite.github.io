@@ -84,23 +84,27 @@
 .navbar-xs {
   background-color: #111;
   border-bottom: 2px groove white;
-  padding-top: 2px;
 }
 
 #inputing {
   font-weight: normal;
   border-radius: 5px;
-  padding-left: 5px;
+  padding: 10px 5px;
   color: black;
   font-size: 4vw;
-  width:93vw;
-  margin-bottom:5px;
+  width:95vw;
+  margin-top:45px;
+
+
 }
 
 .navbar-xs a {
   color: white;
   text-decoration: none;
   font-size: 3.6vw;
+}
+.navbar-xs{
+  padding:5px 10px;
 }
 
 
@@ -111,7 +115,7 @@
 #top {
   padding: 0px 8px 0px 8px;
 }
-.okoshko{
+#navbutton{
   float:right;
-  padding: 2px 8px;
+
 }
