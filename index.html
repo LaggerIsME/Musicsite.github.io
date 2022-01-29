@@ -14,33 +14,61 @@
 
 <body>
   <header>
-  <div class="head-cont">
   <nav class="navbar-xs">
-          <a class="navbar-brand" href="index.html" style="font-size:4.5vw; position:absolute; margin-top:5px; ">RussianRock.com</a>
-          <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="navbutton">
-              <span class="navbar-toggler-icon" style="padding-right:16px;"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                   <ul class="navbar-nav ml-auto">
-                       <li class="nav-item active">
-                           <a class="nav-link wprd" href="index.html">HOME</a>
-                           <div class="underline"></div>
-                       </li>
-                       <li class="nav-item">
-                           <a class="nav-link wprd" href="Planets.html">PLANETS</a>
+    <div class="container-fluid">
 
-                       </li>
-                       <li class="nav-item active">
-                           <a class="nav-link wprd" href="Stars.html">STARS</a>
-                       </li>
-                       <li class="nav-item active">
-                           <a class="nav-link wprd" href="Asteroids.html">ASTEROIDS</a>
-                       </li>
-                   </ul>
-               </div>
-          <input type="text" class="form-control" id="inputing" placeholder="Поиск">
+      <a class="navbar-item text-Light" style="font-size:5vw" href="index.html">
+        RussianRock.com
+      </a>
+      <button class="navbar-toggler navbar-dark"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="d-flex">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown mx-0">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="my-auto">Жанры</span>
+              </a>
+              <ul class="dropdown-menu dropdown-menu-end text-center bg-dark"  aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Пост-панк</a></li>
+                <li><a class="dropdown-item" href="#">Поп-панк</a></li>
+                <li><a class="dropdown-item" href="#">Классический Рок</a></li>
+                <li><a class="dropdown-item" href="#">Инди</a></li>
+                <li><a class="dropdown-item" href="#">Метал</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown mx-0">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="my-auto">Годы выпуска</span>
+              </a>
+              <ul class="dropdown-menu dropdown-menu-end text-center bg-dark"  aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Рок-80х</a></li>
+                <li><a class="dropdown-item" href="#">Рок-90х</a></li>
+                <li><a class="dropdown-item" href="#">Рок-00х</a></li>
+                <li><a class="dropdown-item" href="#">Рок-10х</a></li>
+                <li><a class="dropdown-item" href="#">Современный Рок</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown mx-0">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="my-auto">Название группы</span>
+              </a>
+              <ul class="dropdown-menu dropdown-menu-end text-center bg-dark"  aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Звери</a></li>
+                <li><a class="dropdown-item" href="#">Сплин</a></li>
+                <li><a class="dropdown-item" href="#">Наутилус Помпилус</a></li>
+                <li><a class="dropdown-item" href="#">Соседя стерпят</a></li>
+                <li><a class="dropdown-item" href="#">Hellraizer</a></li>
+                <li><a class="dropdown-item" href="#">Остальные группы</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </nav>
-</div>
 </header>
   <div class="container-fluid ">
     <div class="row" id="row_container">
@@ -78,7 +106,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-10 col-sm-10" id="main">
+      <div class="col-md-10 col-sm-10 col-xs-12" id="main">
         <div class="row" id="row_main">
           <div class="col-md-7 col-sm-7 col-xs-7 " id="inside">
             <div class="col-md-12 col-sm-12 col-xs-12" id="text">
