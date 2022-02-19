@@ -12,8 +12,7 @@
   <!-- ФИГНЯ ДЛЯ CSS BS5-->
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <!-- JS ДЛЯ ПЛЕЕРА-->
-  <script type="text/javascript" src="player.js"></script>
-  <link rel="stylesheet" type="text/css" href="player.css">
+  <script type="text/javascript" src="js/main.js"></script>
   <title>RussianRock.com</title>
 </head>
 
@@ -84,11 +83,11 @@
           <div class="Kategor">
             <div class="Genre">
               <h2><small>Жанры</small></h2>
-              <a href="#">Пост-панк</a>
-              <a href="#">Поп-панк</a>
-              <a href="#">Классический рок</a>
-              <a href="#">Инди</a>
-              <a href="#">Метал</a>
+              <a href="#" id = "post-punk"><button onclick="changeBackgroundImage();">Пост-панк<button></a>
+              <a href="#" id = "pop-punk">Поп-панк</a>
+              <a href="#" id = "classic">Классический рок</a>
+              <a href="#" id ="indi">Инди</a>
+              <a href="#" id ="metal">Метал</a>
             </div>
             <div class="God">
               <h2><small>Годы выпуска</small></h2>
@@ -115,19 +114,6 @@
         <div class="row" id="row_main">
           <div class="col-md-7 col-sm-7 col-xs-7 " id="inside">
             <div class="col-md-12 col-sm-12 col-xs-12" id="text">
-              <!--Элементы плеера(ЕЩЕ НЕ ЗАКОНЧИЛ) -->
-              <div id="wrapper">
-                <div id='player'>
-                  <audio id="music_player">
-                    <source src="music/sample_music.mp3" />
-                  </audio>
-                  <input type="image" src="media/play.png" onclick="play_aud()" id="play_button">
-                  <input type="image" src="images/pause.png" onclick="pause_aud()" id="play_button">
-                  <input type="image" src="images/stop.png" onclick="stop_aud()" id="play_button">
-                  <img src="images/volume.png" id="vol_img">
-                  <input type="range" id="change_vol" onchange="change_vol()" step="0.05" min="0" max="1" value="1">
-                </div>
-              </div>
             </div>
           </div>
         </div>
