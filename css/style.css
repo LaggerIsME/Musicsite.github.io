@@ -58,7 +58,6 @@
   width: 14.7vw;
 }
 
-
 .Kategor a {
   text-decoration: none;
   color: grey;
@@ -88,9 +87,7 @@
   padding: 1px 5px;
   color: black;
   font-size: 4vw;
-  width:85vw;
-
-
+  width: 85vw;
 }
 
 .navbar-xs a {
@@ -98,10 +95,10 @@
   text-decoration: none;
   font-size: 3.6vw;
 }
-.navbar-xs{
-  padding:5px 10px;
-}
 
+.navbar-xs {
+  padding: 5px 10px;
+}
 
 .navbar-xs a:hover {
   color: grey;
