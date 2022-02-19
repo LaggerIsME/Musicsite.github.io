@@ -4,26 +4,30 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--Основная таблица сайта -->
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <!-- Медиа-запросы и остальное, отвечающие за адаптивность-->
   <link rel="stylesheet" type="text/css" href="css/breakpoints.css">
   <link rel="shortcut icon" type="image/x-icon" href="media/icons8_rock_50_BUD_icon.ico">
-  <!-- ФИГНЯ ДЛЯ CSS -->
+  <!-- ФИГНЯ ДЛЯ CSS BS5-->
   <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- JS ДЛЯ ПЛЕЕРА-->
+  <script type="text/javascript" src="player.js"></script>
+  <link rel="stylesheet" type="text/css" href="player.css">
   <title>RussianRock.com</title>
 </head>
 
 <body>
   <header>
-    <nav class="navbar-xs">
+    <!-- Элементы мобильной версии сайта -->
+    <nav class="navbar-xs ">
       <div class="container-fluid">
-
         <a class="navbar-item text-Light" style="font-size:5vw" href="index.html">
           RussianRock.com
         </a>
         <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <div class="d-flex">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -70,6 +74,7 @@
       </div>
     </nav>
   </header>
+  <!-- Элементы ПК-версии сайта -->
   <div class="container-fluid ">
     <div class="row" id="row_container">
       <div class="col-md-2 col-sm-2" id="left">
@@ -110,14 +115,26 @@
         <div class="row" id="row_main">
           <div class="col-md-7 col-sm-7 col-xs-7 " id="inside">
             <div class="col-md-12 col-sm-12 col-xs-12" id="text">
-              <br>
+              <!--Элементы плеера(ЕЩЕ НЕ ЗАКОНЧИЛ) -->
+              <div id="wrapper">
+                <div id='player'>
+                  <audio id="music_player">
+                    <source src="music/sample_music.mp3" />
+                  </audio>
+                  <input type="image" src="media/play.png" onclick="play_aud()" id="play_button">
+                  <input type="image" src="images/pause.png" onclick="pause_aud()" id="play_button">
+                  <input type="image" src="images/stop.png" onclick="stop_aud()" id="play_button">
+                  <img src="images/volume.png" id="vol_img">
+                  <input type="range" id="change_vol" onchange="change_vol()" step="0.05" min="0" max="1" value="1">
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <!-- ФИГНЯ ДЛЯ JS -->
+  <!-- ФИГНЯ ДЛЯ JS BS5-->
   <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 
