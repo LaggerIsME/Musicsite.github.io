@@ -1,4 +1,26 @@
-function changeBackgroundImage(id){
+$(document).ready(function() {
+
+  $('#post-punk').hover(function() {
+    $('#main').css({
+      "background-image": "url('media/wallpaperflare.com_wallpaper.jpg')",
+      "transition-delay": "0.5s"
+    });
+  });
+
+  //анимация текста
+  $('.music').mouseover(function(){
+    $(this).css("padding-left", "10px");
+  })
+  $('.music').mouseout(function(){
+    $(this).css("padding-left", "0px");
+  })
+  
+});
+
+
+
+
+/*function changeBackgroundImage(id){
   var main = document.getElementById("main");
         main.style.backgroundRepeat = "no-repeat";
         main.style.backgroundSize = "cover";
@@ -14,4 +36,4 @@ function changeBackgroundImage(id){
             case "metal":
               main.style.backgroundImage = "url('image.png')";
   }
-}
+}*/

@@ -59,6 +59,7 @@
 }
 
 .Kategor a {
+  font-family: Roboto Condensed Light;
   text-decoration: none;
   color: grey;
   display: block;
@@ -68,7 +69,6 @@
 
 .Kategor a:hover {
   color: white;
-  padding: 0px 0px 0px 10px; /*Анимация наводки*/
 }
 
 #main h2 {
