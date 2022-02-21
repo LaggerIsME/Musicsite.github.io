@@ -1,39 +1,42 @@
 $(document).ready(function() {
-
-  $('#post-punk').hover(function() {
+  //анимация обложек
+  $('.post-punk').hover(function() {
     $('#main').css({
-      "background-image": "url('media/wallpaperflare.com_wallpaper.jpg')",
+      "background-image": "url('media/post-punk.jpg')",
+      "transition-delay": "0.5s"
+    });
+  });
+  $('.pop-punk').hover(function() {
+    $('#main').css({
+      "background-image": "url('media/pop-punk.jpg')",
+      "transition-delay": "0.5s"
+    });
+  });
+  $('.classic').hover(function() {
+    $('#main').css({
+      "background-image": "url('media/classic.jpg')",
+      "transition-delay": "0.5s"
+    });
+  });
+  $('.indi').hover(function() {
+    $('#main').css({
+      "background-image": "url('media/indi.jpg')",
+      "transition-delay": "0.5s"
+    });
+  });
+  $('.metal').hover(function() {
+    $('#main').css({
+      "background-image": "url('media/metal.jpg')",
       "transition-delay": "0.5s"
     });
   });
 
   //анимация текста
-  $('.music').mouseover(function(){
+  $('.music').mouseover(function() {
     $(this).css("padding-left", "10px");
   })
-  $('.music').mouseout(function(){
+  $('.music').mouseout(function() {
     $(this).css("padding-left", "0px");
   })
-  
+
 });
-
-
-
-
-/*function changeBackgroundImage(id){
-  var main = document.getElementById("main");
-        main.style.backgroundRepeat = "no-repeat";
-        main.style.backgroundSize = "cover";
-  switch(id){
-    case "post-punk":
-      main.style.backgroundImage = "url('image.png')";
-      case "pop-punk":
-        main.style.backgroundImage = "url('image.png')";
-        case "classic":
-          main.style.backgroundImage = "url('image.png')";
-          case "indi":
-            main.style.backgroundImage = "url('image.png')";
-            case "metal":
-              main.style.backgroundImage = "url('image.png')";
-  }
-}*/
