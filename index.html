@@ -12,8 +12,9 @@
   <link rel="shortcut icon" type="image/x-icon" href="media/icons8_rock_50_BUD_icon.ico">
   <!-- ФИГНЯ ДЛЯ CSS BS5-->
   <link href="css/bootstrap.min.css" rel="stylesheet">
-  <!-- JS-->
+  <!-- JS JQUERY -->
   <script src="js/jquery-3.6.0.min.js"></script>
+  <!-- JS BOOTSTRAP -->
   <script src="js/bootstrap.bundle.min.js"></script>
   <title>RussianRock.com</title>
 </head>
@@ -37,11 +38,11 @@
                   <span class="my-auto">Жанры</span>
                 </a>
                 <ul class="dropdown-menu dropdown-menu-end text-center bg-dark" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item post-punk" href="#">Пост-панк</a></li>
-                  <li><a class="dropdown-item pop-punk" href="#">Поп-панк</a></li>
-                  <li><a class="dropdown-item classic" href="#">Классический Рок</a></li>
-                  <li><a class="dropdown-item indi" href="#">Инди</a></li>
-                  <li><a class="dropdown-item metal" href="#">Метал</a></li>
+                  <li><a class="dropdown-item m_post-punk" href="#">Пост-панк</a></li>
+                  <li><a class="dropdown-item m_pop-punk" href="#">Поп-панк</a></li>
+                  <li><a class="dropdown-item m_classic" href="#">Классический Рок</a></li>
+                  <li><a class="dropdown-item m_indi" href="#">Инди</a></li>
+                  <li><a class="dropdown-item m_metal" href="#">Метал</a></li>
                 </ul>
               </li>
               <li class="nav-item dropdown mx-0">
@@ -49,11 +50,11 @@
                   <span class="my-auto">Годы выпуска</span>
                 </a>
                 <ul class="dropdown-menu dropdown-menu-end text-center bg-dark" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item post-punk" href="#">Рок-80х</a></li>
-                  <li><a class="dropdown-item pop-punk" href="#">Рок-90х</a></li>
-                  <li><a class="dropdown-item classic" href="#">Рок-00х</a></li>
-                  <li><a class="dropdown-item indi" href="#">Рок-10х</a></li>
-                  <li><a class="dropdown-item metal" href="#">Современный Рок</a></li>
+                  <li><a class="dropdown-item m_post-punk" href="#">Рок-80х</a></li>
+                  <li><a class="dropdown-item m_pop-punk" href="#">Рок-90х</a></li>
+                  <li><a class="dropdown-item m_classic" href="#">Рок-00х</a></li>
+                  <li><a class="dropdown-item m_indi" href="#">Рок-10х</a></li>
+                  <li><a class="dropdown-item m_metal" href="#">Современный Рок</a></li>
                 </ul>
               </li>
               <li class="nav-item dropdown mx-0">
@@ -61,12 +62,12 @@
                   <span class="my-auto">Названия группы</span>
                 </a>
                 <ul class="dropdown-menu dropdown-menu-end text-center bg-dark" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item post-punk" href="#">Звери</a></li>
-                  <li><a class="dropdown-item pop-punk" href="#">Сплин</a></li>
-                  <li><a class="dropdown-item classic" href="#">Наутилус Помпилус</a></li>
-                  <li><a class="dropdown-item indi" href="#">Соседя стерпят</a></li>
-                  <li><a class="dropdown-item music metal" href="#">Hellraizer</a></li>
-                  <li><a class="dropdown-item post-punk" href="#">Остальные группы</a></li>
+                  <li><a class="dropdown-item m_post-punk" href="#">Звери</a></li>
+                  <li><a class="dropdown-item m_pop-punk" href="#">Сплин</a></li>
+                  <li><a class="dropdown-item m_classic" href="#">Наутилус Помпилус</a></li>
+                  <li><a class="dropdown-item m_indi" href="#">Соседя стерпят</a></li>
+                  <li><a class="dropdown-item m_metal" href="#">Hellraizer</a></li>
+                  <li><a class="dropdown-item m_post-punk" href="#">Остальные группы</a></li>
                 </ul>
               </li>
             </ul>
@@ -78,6 +79,7 @@
   <!-- Элементы ПК-версии сайта -->
   <div class="container-fluid ">
     <div class="row" id="row_container">
+      <!-- Левая часть сайта -->
       <div class="col-md-2 col-sm-2" id="left">
         <div class="sidenav">
           <h1><a href="index.html" style="text-decoration: none"><small>RussianRock.com</small></a></h1>
@@ -105,13 +107,14 @@
               <a href="#" class="music pop-punk">Сплин</a>
               <a href="#" class="music classic">Наутилус Помпилус</a>
               <a href="#" class="music indi">Соседи стерпят</a>
-              <a href="#" class="music music metal">Hellraizer</a>
+              <a href="#" class="music metal">Hellraizer</a>
               <a href="#" class="music post-punk">Остальные группы</a>
               <br>
             </div>
           </div>
         </div>
       </div>
+      <!-- Правая часть сайта -->
       <div class="col-md-10 col-sm-10 col-xs-12" id="main">
         <div class="row" id="row_main">
           <div class="col-md-7 col-sm-7 col-xs-7 " id="inside">
@@ -122,7 +125,7 @@
       </div>
     </div>
   </div>
-  <!-- ФИГНЯ ДЛЯ JS BS5-->
+  <!-- JS СКРИПТЫ САЙТА-->
   <script type="text/javascript" src="js/main.js"></script>
 </body>
 
