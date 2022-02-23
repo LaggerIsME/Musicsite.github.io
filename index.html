@@ -12,6 +12,8 @@
   <link rel="shortcut icon" type="image/x-icon" href="media/icons8_rock_50_BUD_icon.ico">
   <!-- ФИГНЯ ДЛЯ CSS BS5-->
   <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- CSS Mediaplayer.js -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/4.2.6/mediaelementplayer.css">
   <!-- JS JQUERY -->
   <script src="js/jquery-3.6.0.min.js"></script>
   <!-- JS BOOTSTRAP -->
@@ -119,6 +121,18 @@
         <div class="row" id="row_main">
           <div class="col-md-7 col-sm-7 col-xs-7 " id="inside">
             <div class="col-md-12 col-sm-12 col-xs-12" id="text">
+              <!--БЛОК С ПЛЕЕРАМИ САЙТА-->
+              <div class="players">
+                <audio id="player1" preload="none" controls style="width: 47vw; padding: 20px 30px 0px 30px;">
+                  <source id="source1" src="audio/pop-punk/Соседи Стерпят - Девочка панк.mp3" type="audio/mp3">
+                </audio>
+                <audio id="player2" preload="none" controls style="width: 47vw; padding: 20px 30px 0px 30px;">
+                  <source id="source2" src="audio/pop-punk/Соседи Стерпят - Пепел мой последний друг.mp3" type="audio/mp3">
+                </audio>
+                <audio id="player3" preload="none" controls style="width: 47vw; padding: 20px 30px 0px 30px;">
+                  <source id="source3" src="audio/pop-punk/Соседи Стерпят feat. Ai Mori - Влюбилась (руки на шее) [feat. Ai Mori].mp3" type="audio/mp3">
+                </audio>
+              </div>
             </div>
           </div>
         </div>
@@ -127,6 +141,8 @@
   </div>
   <!-- JS СКРИПТЫ САЙТА-->
   <script type="text/javascript" src="js/main.js"></script>
+  <!-- JS Mediaplayer.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/4.2.6/mediaelement.js"></script>
 </body>
 
 </html>
